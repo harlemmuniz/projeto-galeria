@@ -1,0 +1,8 @@
+// O arquivo index vai importar todo o scss utilizado
+
+@import "~bootstrap/scss/bootstrap"; // ~ representa a pasta node-modules /bootstrap/scss/bootstrap
+
+$fa-font-path: "~font-awesome/fonts"; // colocando onde será o diretório das fontes: node-modules/font-awesome/fonts
+
+@import "~font-awesome/scss/font-awesome";
+@import "custom";
